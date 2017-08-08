@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '4xh%gkd(5*2*xg3@iz(#@c@@ai#wt@
 #DEBUG = True
 DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['young-shore-98037.herokuapp.com','127.0.0.1']
 
 
 CORS_ORIGIN_WHITELIST = [
