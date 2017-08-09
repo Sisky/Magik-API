@@ -34,7 +34,7 @@ CORS_ORIGIN_WHITELIST = [
     'localhost:8080',
     '127.0.0.1:8080',
     'localhost:4200',
-    'https://cryptic-fjord-46997.herokuapp.com'
+    'https://cryptic-fjord-46997.herokuapp.com',
 ]
 
 # Application definition
