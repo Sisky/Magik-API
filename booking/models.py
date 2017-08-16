@@ -11,10 +11,10 @@ class Booking(models.Model):
     pm_surg = models.CharField(max_length=258)
     valid = models.IntegerField()
     created = models.DateTimeField()
-    status = models.IntegerField()
+    am_status = models.IntegerField()
+    pm_status = models.IntegerField()
     am_confirmed = models.IntegerField()
     pm_confirmed = models.IntegerField()
-
 
     def __str__(self):
         return f'{self.date}, L{self.level}, R{self.room}'
