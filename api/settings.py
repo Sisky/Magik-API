@@ -40,6 +40,7 @@ CORS_ORIGIN_WHITELIST = [
     'cryptic-fjord-46997.herokuapp.com',
     'https://cryptic-fjord-46997.herokuapp.com/#/',
     'https://cryptic-fjord-46997.herokuapp.com/',
+    'https://cryptic-fjord-46997.herokuapp.com',
 ]
 
 # Application definition
