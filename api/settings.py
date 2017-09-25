@@ -146,7 +146,7 @@ REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.AllowAny',
     ],
-    'PAGE_SIZE': 1000,
+    'PAGE_SIZE': 100000,
 }
 
 # Heroku: Update database configuration from $DATABASE_URL.
